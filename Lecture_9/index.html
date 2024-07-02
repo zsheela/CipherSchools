@@ -1,0 +1,68 @@
+<!--
+Lecture_9
+    Events:
+      ->Any kind of user interation with the website is an event
+      like, clicking, pressing a key in keyboard, minimizing,hovering, etc.,.
+      ->JavaScript code will be executed when ever an event occurs
+-->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 onclick="this.innerHTML=`This is after click!`">Hello world.</h1>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 onclick="changeText(this)">Hello world.</h1>
+        <button onclick="displayDate()">the time is:</button>
+        <p id="demo"></p>
+    </div>
+    <!-- <form action=""> -->
+        <input type="text" id="firstName" onchange="upperCase()" />
+    <!-- </form> -->
+     <div onmouseover="mOver(this)" onmouseout="mOut(this)" onmousedown="mDown(this)" onmouseup="mUp(this)" style="background-color: red; width: 120px; height: 20px; padding: 40px;">
+        Mouse over me
+     </div>
+    <script>
+        function changeText(id){
+            id.innerHTML=`This is after click!`;
+        }
+        function displayDate(){
+            document.getElementById("demo").innerHTML = new Date();
+        } 
+        function upperCase(){
+            const x=document.getElementById("firstName");
+            x.value = x.value.toUpperCase();
+        }
+        function mOver(obj){
+            obj.innerHTML="Thank you";
+        }
+        function mOut(obj){
+            obj.innerHTML="mouse out me";
+        }
+        function mDown(obj){
+            obj.style.backgroundColor="cyan";
+            obj.innerHTML="Release me";
+        }
+        function mUp(obj){
+            obj.style.backgroundColor="red";
+            obj.innerHTML="Thank you";
+        }
+    </script>
+</body>
+</html>

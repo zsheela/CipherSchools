@@ -1,0 +1,6 @@
+Lecture_13
+    Installation of node.js
+    Enter node -v in cmd to check the version 
+    followed by npm -v
+    npm -g i create-react-app
+    

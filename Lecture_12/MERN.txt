@@ -1,0 +1,87 @@
+Lecture_12
+        MERN stack is nothing but a javascript stack ehich is used 
+    for easier and faster deployment of full stack web applications.
+    It comprises of 4 technologies namely MongoDb, Exprexx, React and 
+    Node.js. It is designed to make the development process smoother 
+    and easier.
+        Each of these four powerful technologies provide an end to end
+    framework for the developers to work and each technologoes, play a
+    big part in the development of web appliations.
+
+    MongoDB:
+        It is a cross platform Document oriented DataBase.
+        MongoDB is a NoSQL database where each record is a document(The 
+        storage of data follows like("firstName":"Sheela","lastName":"Boorla") 
+        but not like a table format) comprising of key-value pairs that are 
+        similar to JSON(Javascript Object Notation) objects. MongoDb is flexible
+        and allows its users to create schema, databases, tables, etc. Documents
+        that are identifiable by primary key makeup the basic unit of MongoDb. 
+        Once MongoDB is installed, users can make use of Mongo shell as well. 
+        Mongo shell provides a JavaScript interface through which the users can 
+        interact and carry out operations(eg. querying, updating records, deleting 
+        records).
+        
+        Why use MongoDB?
+            -> Fast - Being a document-oriented database, easy to index documents. Therefore
+        a faster response.
+            -> Scalability - Large data can be handled by dividing it into several machines.
+            -> Use of JavaScript - MongoDb uses JavaScript which is the biggest advantage.
+            -> Schema Less - Any type of data in a seperate document.
+            -> Simple Environment Setup - It is really simple to set up MongoDB
+            -> Flexiable Document Model - MongoDB supports document-model(tables, schemas, 
+        columns &SQL) which is faster and easier.
+        -> Data is stored in the form of BSON(similar to JSON):
+            -> Objects, Object Members, Arrays, Values and Strings.
+            -> JSON syntax is very easy to use.
+            -> JSON has a wide range of browser compatibility.
+            -> Sharing Data: Data of any size and type(video, audio) can be shared easily.
+
+
+    Express:
+        Express is a backend Framework. Its ia framework inside Node.js. Rather than 
+        writing the code using Node.js and creating loads of modules, Express makes 
+        it simpler and easier to write the back-end code. Express helps in designing 
+        great web applications and APIs. Express supports many middlewares which makes 
+        the code shorter and easier to write.
+        
+        Why use Express?
+            -> Asynchronous and Single-threaded.
+            -> Efficient, fast and scalable.
+            -> Has the biggest community for Node.js
+            -> Express promotes code reusability eith its built-in router.
+            -> Robust API.
+
+
+    React:
+        React is a frontend framework. It is a JavaScript library(Developed and currently maintained by Meta) that is used for 
+        building user interfaces. React is used for the development of single-page 
+        applications(SPA) and mobile appliations because of its ability to handle rapidly 
+        changing data. React allows users to code in JavaScript and create UI components.
+        
+        Why use React?
+        -> Virtual DOM - A virtual Dom object is a representation of a DOM object. Virtual DOM 
+        is actually a copy of the original DOM. Any modification in the web application causes 
+        the entire UI to re-render the virtual-DOM. Then the difference b/w the original DOM 
+        and the virtual DOM is compared and the changes are made accordingly to original DOM.
+        -> JSX - Stands for JavaScript XML. It is an HTML/XML JavaScript Extension which is 
+        used in React. Makes it easier and simpler to write React compinents.
+        -> Components - ReactJS supports Components. Components are the building blocks of 
+        UI wherein each component has a logic and contributes to the overall UI. These components
+        also promote code reusability and make the overall web application easier to understand.
+        -> High Performance - Features like, Virtual DOM, JSX and Components make it much faster 
+        than the rest of the frameworks out there.
+        -> Developing Android/iOS Apps - Which React NAtive, you can easily code android-based or 
+        iOS based apps, with just the knowledge of JavaScript and React.
+
+    
+    Node.js:
+        It is a JavaScript runtime Environment which allows the user to run their code on the server
+        (outside the browser). Node package manager i.e. npm allows the user to choose from thousands 
+        of free packages(node modules) to download.
+        
+        Why use Node.js?
+        -> Open-source JavaScript runtime Environment.
+        -> Single threaded - Follows a single-threaded model.
+        -> Data Streaming.
+        -> Fast - Built on Google Chrome's JavaScriptengine, Node.js has a fast code execution.
+        -> Highly Scalable.
